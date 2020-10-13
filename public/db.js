@@ -30,6 +30,7 @@ function saveRecord(record) {
 
   // add record to your store with add method.
   store.add(record);
+  console.log("record added to indexedDB " + record);
 }
 
 function checkDatabase() {
